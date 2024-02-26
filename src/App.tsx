@@ -6,6 +6,8 @@ import { getWeekDaysNames } from "./utils/helpers/date/getWeekDaysNames";
 export const App: FC = () => {
     const [selectedDate, selectDate] = useState(new Date());
 
+    console.log(getMothesNames());
+
     return (
         <div className="app__container">
             <Calendar selectDate={selectDate} selectedDate={selectedDate}/>
