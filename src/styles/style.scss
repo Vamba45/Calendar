@@ -9,16 +9,22 @@ $font-color: lch(53 105 40);
     box-sizing: border-box;
 }
 
-html {
-    font-family: 'WhisperRegular';
-    font-size: $font-size;
-    color: pink;
-
-    background-color: #e6e6e6;
-
-    display: flex;
+html, body {
+    width: 100%;
+    height: 100%;
 }
 
 body {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
